@@ -1,0 +1,789 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+    font-family: 'Inter', sans-serif !important;
+
+}
+
+
+#logo{
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+/* header and footer styles */
+.nav_bar {
+    border-radius: 10px;
+    background: var(--Light-Blue-Design, #af6d21);
+    box-shadow: 0px 4px 1.9px 0px rgba(0, 0, 0, 0.05);
+    color: white !important;
+}
+
+.nav_link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #011632;
+}
+
+.nav_link_footer {
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.footer_num {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.footer_address {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+hr {
+    height: 2px;
+    background: #011632;
+}
+
+@media (min-width: 992px) {
+    .nav_bar {
+        margin-top: 52px;
+        margin-right: 80px;
+        margin-left: 80px;
+    }
+
+    nav {
+        height: 90px;
+    }
+
+    .footer_get_2 {
+        padding-left: 74px;
+    }
+
+    .footer_social {
+        justify-content: end;
+        margin-right: 60px;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer_social {
+        justify-content: center;
+    }
+
+    .footer_get2 {
+        margin-top: 30px;
+    }
+}
+
+
+.nav_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 62px;
+    background: linear-gradient(94deg, #011632, #C6B1FA 126.52%, #7A69FE 126.53%);
+}
+
+/* end */
+
+/* home page */
+.accordion-button {
+    color: #011632;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 155%;  
+    letter-spacing: 0.27px;
+}
+.what_provides_para {
+    color: #011632;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;  
+    letter-spacing: 0.27px;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    border-radius: 50%;
+}
+
+.carousel-caption2 {
+    position: absolute;
+    bottom: 1.25rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* appointment */
+.apt_head {
+    color: var(--Dark-Blue-Design, #011632);
+    font-size: 39.272px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    text-transform: capitalize;
+}
+
+.apt_desc {
+    color: var(--Body-text, #011632);
+    font-size: 14.961px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    letter-spacing: 0.224px;
+}
+
+@media (min-width: 1200px) {
+    .form-control {
+        height: 56.103px;
+        flex-shrink: 0;
+    }
+    .apt_desc{
+    margin-bottom: 35px;
+    }
+    .apt_form{
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+}
+
+@media(min-width:1200px) {
+    .last-sec {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+/* end */
+
+/*================================= About Page ================================= */
+.head_about {
+    color: var(--Dark-Blue-Design, #011632);
+    text-align: center;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    /* 74.4px */
+    letter-spacing: -1.24px;
+    text-transform: capitalize;
+}
+
+@media (min-width:1200px) {
+    .mission_heading {
+        margin-top: 90px;
+    }
+}
+.mission_heading {
+    color: var(--Dark-Blue-Design, #011632);
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    text-transform: capitalize;
+}
+
+.mission_para {
+    color: var(--Body-text, #011632);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    letter-spacing: 0.27px;
+}
+
+.mission2_head {
+    color: var(--Dark-Blue-Design, #011632);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.mission2_para {
+    color: var(--Body-text, #011632);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    letter-spacing: 0.27px;
+}
+
+.meet_heading {
+    color: var(--Dark-Blue-Design, #011632);
+    text-align: center;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    text-transform: capitalize;
+}
+
+.meet_para {
+    color: var(--Body-text, #011632);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    letter-spacing: 0.27px;
+}
+
+.doc_name {
+    color: var(--Dark-Blue-Design, #011632);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+
+.doc_designation {
+    color: var(--Dark-Blue-Design, #011632);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 76%;
+    letter-spacing: 0.24px;
+}
+
+.doc1_para {
+    color: var(--Body-text, #011632);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    letter-spacing: 0.27px;
+}
+
+.doc_button {
+    color: var(--Secondary-color, #011632);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 155%;
+    letter-spacing: 0.24px;
+    border-radius: 10px;
+    background: #009DDE;
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-width: 0px;
+}
+
+.latest_heading {
+    color: var(--Dark-Blue-Design, #011632);
+    text-align: center;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    text-transform: capitalize;
+}
+
+.latest_para {
+    color: var(--Body-text, #011632);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    letter-spacing: 0.27px;
+}
+
+.future_heading {
+    color: var(--Dark-Blue-Design, #011632);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+
+.future_para {
+    color: var(--Body-text, #011632);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    letter-spacing: 0.27px;
+}
+
+.welcoming_heading {
+    color: var(--Dark-Blue-Design, #011632);
+    text-align: center;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;
+    text-transform: capitalize;
+}
+
+.welcoming_para {
+    color: var(--Body-text, #011632);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;
+    letter-spacing: 0.27px;
+}
+
+/*============================ Contact page ====================== */
+.contact_about{
+    color: var(--Dark-Blue-Design, #011632);
+    text-align: center;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;  
+    letter-spacing: -1.24px;
+    text-transform: capitalize;
+}
+.contact_para {
+    color: var(--Body-text, #011632);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;  
+    letter-spacing: 0.27px;
+}
+.map {
+    width: 100%;
+    height: 325px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid var(--Sky-blue-Design, #011632);
+}
+.input_text {
+    color: var(--Body-text, #3C4959);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 155%; 
+    letter-spacing: 0.27px;
+}
+.input_field {
+    border-radius: 10px;
+    border: 1px solid var(--Gray-300, #D0D5DD);
+    background: var(--White, #FFF);
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    display: flex;
+    width: 100%;
+    height: 55px;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 8px;
+    color: var(--Gray-500, #667085);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%; /* 21.7px */
+    letter-spacing: 0.28px;
+}
+.input_field1 {
+    border-radius: 10px;
+    border: 1px solid var(--Gray-300, #D0D5DD);
+    background: var(--White, #FFF);
+    box-shadow: 0px 1px 2px 0px #011632;
+    display: flex;
+    width: 100%;
+    height: 55px;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 8px;
+}
+.dropdown_option {
+
+    border-radius: 10px;
+    border: 1px solid var(--Gray-300, #D0D5DD);
+    background: var(--White, #FFF);
+    box-shadow: 0px 1px 2px 0px #011632;
+    display: flex;
+    width: 100%;
+    height: 55px;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 8px;
+
+}
+.messagebox {
+    display: flex;
+    width: 100%;
+    height: 107px;
+    padding: 10px 14px;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid var(--Gray-300, #D0D5DD);
+    background: var(--White, #FFF);
+    box-shadow: 0px 1px 2px 0px #011632;
+}
+.submit_button {
+    border-radius: 10px;
+    background: #011632;
+    display: inline-flex;
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    color: var(--Secondary-color, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 155%;  
+    letter-spacing: 0.24px;
+    border-width: 0px;
+}
+.form_sec {
+    border-radius: 10px;
+    border: 1px solid var(--Sky-blue-Design, #011632);
+    padding: 40px;
+}
+.card-head {
+    color: var(--Dark-Blue-Design, #011632);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 155%;  
+    letter-spacing: 0.27px;
+}
+.card-para {
+    color: var(--Body-text, #3C4959);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;  
+    letter-spacing: 0.24px;
+}
+.svg_icon {
+    fill: var(--Mid-Blue-design, #011632);
+    filter: drop-shadow(0px 5px 62.5px rgba(37, 180, 248, 0.20));
+    width: 53px;
+    height: 53px;
+    flex-shrink: 0;
+}
+.cardsec {
+    border-radius: 10px;
+    background: var(--Secondary-color, #FFF);
+    box-shadow: 0px 5px 50px 0px rgba(0, 0, 0, 0.08);
+    width: 94%;
+    height: 118px;
+    flex-shrink: 0;
+    padding: 5px;
+    border-width:0px;
+}
+@media(max-width:768px) {
+    .form_sec {
+        margin-top: 10px !important;
+    } 
+}
+@media(min-width:1200px) {
+    .alignments {
+        margin-left: 250px;
+        margin-right: 250px;
+    }
+}
+
+/* =================================== Blogs page ======================================= */
+ /* Customize styles here */
+ .owl-carousel {
+    width: 80%;
+    margin: auto;
+  }
+
+  .owl-dot {
+    display: inline-block;
+    background: #ddd;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+
+  .owl-dot.active {
+    background: #333;
+  }
+
+  .custom-nav-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .custom-nav-buttons button {
+    background-color: #16335d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+
+  .blogs-head {
+    color: var(--Dark-Blue-Design, #011632);
+text-align: center;
+font-size: 62px;
+font-style: normal;
+font-weight: 600;
+line-height: 120%; /* 74.4px */
+letter-spacing: -1.24px;
+text-transform: capitalize;
+  }
+
+.blogs_para {
+    color: var(--Body-text, #3C4959);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 27.9px */
+letter-spacing: 0.27px;
+}
+
+.blog_cardss {
+    background-color: #E6F6FE;
+    padding: 9px;
+   
+}
+ 
+.blog_readmore {
+    color: var(--Secondary-color, #FFF);
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 155%; /* 24.8px */
+letter-spacing: 0.24px;
+border-radius: 5px;
+background: #009DDE;
+border-width: 0px;
+}
+.blog-name {
+    color: var(--Dark-Blue-Design, #011632);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 21.7px */
+letter-spacing: 0.28px;
+}
+.article_heading {
+    color: var(--Dark-Blue-Design, #011632);
+font-size: 42px;
+font-style: normal;
+font-weight: 600;
+/* line-height: 125%; 52.5px */
+text-transform: capitalize;
+}
+.filter-dropdown {
+    width: 87px;
+height: 30px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid #CFCFCF;
+margin-left: 3px;
+}
+.option_text {
+    color: var(--Dark-Blue-Design, #011632);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 155%; /* 27.9px */
+letter-spacing: 0.27px;
+}
+.checkout_button {
+    color: var(--Secondary-color, #FFF);
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 155%; /* 24.8px */
+letter-spacing: 0.24px;
+border-radius: 10px;
+background: #011632;
+display: inline-flex;
+padding: 15px 30px;
+align-items: flex-start;
+gap: 10px;
+}
+
+/* navbar  */
+ /* Dropdown container */
+ .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    /* Set width and create multiple columns */
+    column-count: 3; /* Change the number of columns as needed */
+    column-gap: 40px; /* Adjust the gap between columns */
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style the link inside the dropdown */
+.dropdown-content a {
+    font-size: 16px;
+}
+.iconlong {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 8.25px 0px 9.168px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 14px;
+}
+.prev {
+    border-radius: 14px;
+background-color: var(--Dark-Blue-Design, #011632);
+width: 96px;
+height: 44px;
+flex-shrink: 0;
+}
+.next{
+    border-radius: 14px;
+    background: var(--Dark-Blue-Design, #011632);
+    width: 96px;
+    height: 44px;
+    flex-shrink: 0; 
+}
+
+/* ============================================= Services ========================================= */
+.desease_head {
+    color: var(--Dark-Blue-Design, #16335d);
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 125%; /* 52.5px */
+text-transform: capitalize;
+}
+
+
+/* ============================================== Blog Details page ==================================== */
+.blogs_details_heading {
+    color: #000;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: 155%; /* 46.5px */
+letter-spacing: 0.45px;
+}
+.blogs_details_para2 {
+    color: #000;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 27.9px */
+letter-spacing: 0.27px;
+}
+.blogs_details_para {
+    color: #6A6A6A;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 155%; /* 27.9px */
+letter-spacing: 0.27px;
+}
+.sub_heading_blogedetails {
+    color: #000;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: 155%; /* 38.75px */
+letter-spacing: 0.375px;
+}
+.news_heading {
+    color: #16335d;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/*================================================ whatsapp icon & Scrollup ===================================== */
+
+.whatsapp_logo {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    z-index: 9999; /* Ensure it appears on top of other content */
+}
+
+.whatsapp_logo img {
+    width:50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+}
+
+#scrollBtn {
+    display: none; /* Initially hide the button */
+    position: fixed; /* Fix the position of the button */
+    bottom: 20px; /* Adjust the bottom distance */
+    right: 20px; /* Adjust the right distance */
+    z-index: 999; /* Set a high z-index to ensure the button is on top */
+    padding: 10px 15px;
+    background-color: #16335d;
+    color: black;
+    border: none;
+    border-radius:50%;
+    cursor: pointer;
+    stroke: white;
+  }
+
+

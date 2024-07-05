@@ -1,0 +1,658 @@
+@media (min-width:768px) {
+
+    .border_right {
+        border-right: 1px solid #3c3c3c;
+
+    }
+
+}
+
+
+
+.onlu_paha {
+    padding: 10px;
+}
+.hr_line{
+    margin-top: 30px;
+}
+
+.service_heading {
+    color: #F25A29;
+
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    /* 90.909% */
+    letter-spacing: 0.66px;
+    text-align: center;
+}
+
+.service_para {
+    color: var(--Black, #121212);
+    text-align: center;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+  
+    line-height: 34.7px;
+    
+    letter-spacing: 0.547px;
+
+}
+
+
+.doc_img_one {
+    border-radius: 250px;
+}
+
+
+.shedual_heading {
+    color: #F25A29;
+
+    font-size: 15.242px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 16.935px; */
+    /* 111.111% */
+    letter-spacing: 0.457px;
+}
+
+
+.shedual_para {
+    color: var(--Black, #121212);
+
+    /* font-size: 45.726px; */
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 59.274px;  */
+    /* letter-spacing: 0.686px; */
+}
+
+.sahde_color {
+    color: var(--Grey, #696969);
+}
+
+
+.tick_mark_lines {
+    color: var(--Black, #121212);
+
+    font-size: 18.629px;
+    font-style: normal;
+    font-weight: 600;
+
+    letter-spacing: 0.373px;
+}
+
+.tick_mark_lines2 {
+    color: var(--Black, #121212);
+
+    font-size: 18.629px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: -15px;
+    letter-spacing: 0.373px;
+}
+
+.schedual_button {
+    border-radius: 8.468px;
+    background: #009DDE;
+    border: none;
+    display: flex;
+    /* width: 170px; */
+    padding: 13.548px 30.484px;
+    justify-content: center;
+    align-items: center;
+    gap: 8.468px;
+    color: white;
+}
+
+.shd_btn {
+    border-radius: 8.468px;
+    background: #009DDE;
+    border: none;
+    display: flex;
+    width: 170px;
+    padding: 13.548px 30.484px;
+    justify-content: center;
+    align-items: center;
+    gap: 8.468px;
+    color: white;
+}
+
+.blue_rounded_tick {
+    width: 15.548px;
+    height: 15.548px;
+    flex-shrink: 0;
+    fill: #009DDE;
+    border-radius: 50%;
+    background-color: #009DDE;
+    color: white;
+    font-weight: 10px !important;
+
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .hr_line{
+        margin-top: 25px;
+    }
+
+
+
+    .service_para {
+        color: var(--Black, #121212);
+        text-align: center;
+    
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+      
+        line-height: 34.7px;
+        
+        letter-spacing: 0.547px;
+
+        margin-top: -20px;
+    
+    }
+    
+    /* .div_first_con{
+        margin-top: 20px !important;
+        margin-bottom: -60px !important;
+    }
+     */
+
+
+    .service_heading {
+        color: #F25A29;
+
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+        /* 90.909% */
+        letter-spacing: 0.66px;
+        text-align: center;
+    }
+
+    .service_para {
+        color: var(--Black, #121212);
+        text-align: center;
+
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        /* padding-left: 300px;
+        padding-right: 300px; */
+        line-height: 34.7px;
+        /* 122.639% */
+        letter-spacing: 0.547px;
+
+    }
+
+
+
+    .shedual_heading {
+        color: #F25A29;
+
+        font-size: 15.242px;
+        font-style: normal;
+        font-weight: 700;
+        /* line-height: 16.935px; */
+        /* 111.111% */
+        letter-spacing: 0.457px;
+    }
+
+
+    .shedual_para {
+        color: var(--Black, #121212);
+
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        /* line-height: 59.274px;  */
+        /* letter-spacing: 0.686px; */
+    }
+
+    .sahde_color {
+        color: var(--Grey, #696969);
+        font-size: 13px;
+    }
+
+
+    .tick_mark_lines {
+        color: var(--Black, #121212);
+
+        font-size: 15.629px;
+        font-style: normal;
+        font-weight: 600;
+
+        letter-spacing: 0.373px;
+    }
+
+    .tick_mark_lines2 {
+        color: var(--Black, #121212);
+
+        font-size: 15.629px;
+        font-style: normal;
+        font-weight: 600;
+        margin-top: -15px;
+        letter-spacing: 0.373px;
+    }
+
+    .schedual_button {
+        border-radius: 8.468px;
+        background: #009DDE;
+        border: none;
+        display: flex;
+        /* width: 170px; */
+        padding: 8.548px 25.484px;
+        justify-content: center;
+        align-items: center;
+        gap: 8.468px;
+        color: white;
+        font-size: 15px;
+    }
+
+    .shd_btn {
+        border-radius: 8.468px;
+        background: #009DDE;
+        border: none;
+        display: flex;
+        width: 170px;
+        padding: 8.548px 25.484px;
+        justify-content: center;
+        align-items: center;
+        gap: 8.468px;
+        color: white;
+        font-size: 13px;
+        height: 45px;
+    }
+
+    .sche_button2 {
+        font-size: 13px;
+        color: #009DDE;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8.468px;
+        background: #D4EAF4;
+        border: none;
+        height: 45px;
+
+    }
+}
+
+.second_doc_div {
+    margin-top: 100px;
+}
+
+.sche_button2 {
+    margin-left: 50px;
+    color: #009DDE;
+    width: 250px;
+    padding: 13.548px 30.484px;
+    justify-content: center;
+    align-items: center;
+    gap: 8.468px;
+    border-radius: 8.468px;
+    background: #D4EAF4;
+    border: none;
+
+}
+
+
+@media (max-width:768px) {
+
+    
+.onlu_paha {
+    
+    margin-top: -15px;
+}
+
+.hr_line{
+    margin-top: 10px;
+}
+
+.service_heading{
+    margin-top: 5px !important;
+    margin-bottom: 2px !important ;
+}
+
+/* .div_first_con{
+    margin-top: 20px !important;
+    margin-bottom: -60px !important;
+} */
+
+
+.doc_img_one {
+    border-radius: 250px;
+    margin-bottom: 20px;
+}
+    .schedual_button {
+        border-radius: 8.468px;
+        background: #009DDE;
+        border: none;
+        display: flex;
+        /* width: 170px; */
+        padding: 8.548px 25.484px;
+        justify-content: center;
+        align-items: center;
+        gap: 8.468px;
+        color: white;
+        font-size: 15px;
+    }
+
+    .btn_flex_center {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .shd_btn {
+        border-radius: 8.468px;
+        background: #009DDE;
+        border: none;
+        display: flex;
+        width: 170px;
+        padding: 8.548px 25.484px;
+        justify-content: center;
+        align-items: center;
+        gap: 8.468px;
+        color: white;
+        font-size: 13px;
+        height: 50px;
+    }
+
+    .sche_button2 {
+        font-size: 13px;
+        color: #009DDE;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8.468px;
+        background: #D4EAF4;
+        border: none;
+        height: 50px;
+
+    }
+}
+
+
+
+
+
+
+
+
+.secomd_pot {
+    width: auto;
+    height: 198.472px;
+border-top: #F25A29 4px solid;
+padding-top: 20px;
+padding-left: 25px;
+border-left: none;
+border-right: none;
+ 
+ 
+ 
+}
+
+.secomd_img {
+   /*   width: 100% !important;
+   height: auto; */
+      width: 100px !important;  
+    height: 100px;
+    /* border-radius: 5px 5px 0 0; */
+}
+
+ 
+
+.inner_desgin_div{
+    color: #000;
+text-align: center;
+
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 44.7px; /* 298% */
+letter-spacing: 0.225px;
+}
+
+.car_head_para{
+    color: #000;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%; /* 18.6px */
+letter-spacing: 0.18px;
+}
+
+
+/* Custom styles for Owl Carousel navigation buttons */
+.four_carsoe .owl-nav button.owl-prev{
+    width: 50px;  
+    height: 50px; 
+    border-radius: 25px;  
+    background: #009DDE !important;  
+    color: white !important; 
+    border: none;  
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);  
+    position: absolute;  
+    top: 50%;  
+    transform: translateY(-50%);
+    
+}
+
+
+.four_carsoe .owl-nav button.owl-next {
+    width: 50px;  /* Increase the width */
+    height: 50px; /* Increase the height */
+    border-radius: 25px; /* Optional: makes them circular */
+    background: #02b3ff !important; /* Background color */
+    color: white !important;  /* Color of the arrow icons */
+    border: none; /* Removes border if any */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16); /* Optional: adds shadow for better visibility */
+    position: absolute; /* Positioning relative to the carousel's position */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%);
+}
+
+/* Increasing the size of the icons */
+.four_carsoe .owl-nav button.owl-prev span,
+.four_carsoe .owl-nav button.owl-next span {
+    font-size: 24px; 
+    
+}
+
+/* Adjust positioning if necessary */
+.four_carsoe .owl-nav button.owl-prev {
+    left: -80px; /* Adjust the horizontal position if necessary */
+}
+.four_carsoe .owl-nav button.owl-next {
+    right:-80px; /* Adjust the horizontal position if necessary */
+}
+
+.back_ground_colr_light_blue{
+  /* Ensure that its child sections are positioned relative to it */
+    background-color: #EFFAFF;
+    /* height: 100vh; */
+    z-index: -1000;
+  width: 100%;
+     
+}
+ 
+@media (min-width:992px) and (max-width:1200px) {
+    .four_carsoe .owl-nav button.owl-prev {
+        left: -50px; /* Adjust the horizontal position if necessary */
+    }
+    .four_carsoe .owl-nav button.owl-next {
+        right:-50px; /* Adjust the horizontal position if necessary */
+    }
+    
+    
+}
+ 
+    
+ 
+@media (min-width:320px) and (max-width:992px) {
+    .four_carsoe .owl-nav button.owl-prev {
+        left: -30px; /* Adjust the horizontal position if necessary */
+    }
+    .four_carsoe .owl-nav button.owl-next {
+        right:-30px; /* Adjust the horizontal position if necessary */
+    }
+    
+    .four_carsoe .owl-nav button.owl-prev{
+        width: 35px;  
+        height: 35px; 
+        border-radius: 25px;  
+        background: #009DDE !important;  
+        color: white !important; 
+        border: none;  
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16);  
+        position: absolute;  
+        top: 50%;  
+        transform: translateY(-50%);
+        
+    }
+    
+    
+    .four_carsoe .owl-nav button.owl-next {
+        width: 35px;  /* Increase the width */
+        height:35px; /* Increase the height */
+        border-radius: 25px; /* Optional: makes them circular */
+        background: #02b3ff !important; /* Background color */
+        color: white !important;  /* Color of the arrow icons */
+        border: none; /* Removes border if any */
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16); /* Optional: adds shadow for better visibility */
+        position: absolute; /* Positioning relative to the carousel's position */
+        top: 50%; /* Center vertically */
+        transform: translateY(-50%);
+    }
+    
+    /* Increasing the size of the icons */
+    .four_carsoe .owl-nav button.owl-prev span,
+    .four_carsoe .owl-nav button.owl-next span {
+        font-size: 18px; 
+        
+    }
+}
+
+ 
+ 
+
+
+
+
+
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+ 
+} 
+ 
+.wrapper { 
+    max-width: 1100px; 
+    width: 100%; 
+    position: relative; 
+  
+} 
+  
+.wrapper i { 
+    height: 50px; 
+    width: 50px; 
+    background: rgb(118, 233, 118); 
+    text-align: center; 
+    line-height: 50px; 
+    border-radius: 50%; 
+    cursor: pointer; 
+    position: absolute; 
+    top: 50%; 
+    font-size: 1.25 rem; 
+    transform: translateY(-50%); 
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23); 
+  
+} 
+  
+.wrapper i:first-child { 
+    left: -22px; 
+  
+} 
+  
+.wrapper i:last-child { 
+    right: -22px; 
+  
+} 
+  
+.wrapper .carousel { 
+    display: grid; 
+    grid-auto-flow: column; 
+    grid-auto-columns: calc((100% / 3) - 12px); 
+    gap: 16px; 
+    overflow-x: auto; 
+    scroll-snap-type: x mandatory; 
+    scroll-behavior: smooth; 
+    scrollbar-width: 0; 
+} 
+  
+.carousel::-webkit-scrollbar { 
+    display: none; 
+} 
+  
+.carousel :where(.card, .img) { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+} 
+  
+.carousel.dragging { 
+    scroll-snap-type: none; 
+    scroll-behavior: auto; 
+} 
+  
+.carousel.no-transition { 
+    scroll-behavior: auto; 
+} 
+  
+.carousel.dragging .card { 
+    cursor: grab; 
+    user-select: none; 
+}
+
+
+
+
+
+    
+.meetourdoctors{
+    color: var(--Dark-Blue-Design, #011632);
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%;  
+    text-transform: capitalize;
+}
+
+.weuse{
+    color:#3C4959;
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 155%;  
+    letter-spacing: 0.27px;
+}
+
+
+
+
+.rounded-circle{
+    width: 150px;
+}
+
+
+
