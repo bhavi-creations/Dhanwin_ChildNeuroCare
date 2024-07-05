@@ -21,14 +21,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'rainbowskinclinic@gmail.com'; // Your Gmail email address
-        $mail->Password = 'qtpbnrowxcomvegm'; // Your Gmail password
+        $mail->Username =  'dharmadanandini@gmail.com'; // Your Gmail email address
+        $mail->Password = 'jslbzskeqznuwifa'; // Your Gmail password
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
         // Recipients
-        $mail->setFrom('rainbowskinclinic@gmail.com', 'Tripura Skin and Cosmetology Clinic'); // Your Gmail email and name
-        $mail->addAddress('rainbowskinclinic@gmail.com', 'Tripura Skin and Cosmetology Clinic'); // Recipient's email and name
+        $mail->setFrom('dharmadanandini@gmail.com', 'Tripura Skin and Cosmetology Clinic'); // Your Gmail email and name
+        $mail->addAddress('dharmadanandini@gmail.com', 'Tripura Skin and Cosmetology Clinic'); // Recipient's email and name
 
         // Content
         $mail->isHTML(true);
@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->send();
         echo '<SCRIPT>
         window.alert("submitted Successfully")
-        window.location.href="appointment.html"</SCRIPT>';
+         window.location.href="index.html"</script>';
     } catch (Exception $e) {
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }

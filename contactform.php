@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         $mail->send();
         echo '<script>window.alert("successfully Submitted"),
-         window.location.href="index.php"</script>';
+         window.location.href="index.html"</script>';
     } catch (Exception $e) {
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }
