@@ -24,14 +24,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username =  'tripuraskinclinic@gmail.com'; // Your Gmail email address
-        $mail->Password = 'bbawhrmjgrlqjqtm'; // Your Gmail password
+        $mail->Username =  'dharmadanandini@gmail.com'; // Your Gmail email address
+        $mail->Password = 'jslbzskeqznuwifa'; // Your Gmail password
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
         // Recipients
-        $mail->setFrom('tripuraskinclinic@gmail.com', 'Tripura Skin and Cosmetology Clinic'); // Your Gmail email and name
-        $mail->addAddress('tripuraskinclinic@gmail.com', 'Tripura Skin and Cosmetology Clinic'); // Recipient's email and name
+        $mail->setFrom('dharmadanandini@gmail.com', 'Tripura Skin and Cosmetology Clinic'); // Your Gmail email and name
+        $mail->addAddress('dharmadanandini@gmail.com', 'Tripura Skin and Cosmetology Clinic'); // Recipient's email and name
 
         // Content
         $mail->isHTML(true);
