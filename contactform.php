@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
         $mail->Username =  'dhanwinchildneurocare@gmail.com'; // Your Gmail email address
-        $mail->Password = 'kjfwwbfufsjzvmkqa'; // Your Gmail password
+        $mail->Password = 'kjfwwbfufsjzvmkq'; // Your Gmail password
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
