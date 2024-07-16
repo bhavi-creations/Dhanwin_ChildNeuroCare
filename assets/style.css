@@ -786,4 +786,10 @@ letter-spacing: 0.375px;
     stroke: white;
   }
 
-
+@media (max-width:992px) {
+    
+    .nav_logo_sm{
+        width: 150px;
+        border-radius: 20px;
+    }
+}
