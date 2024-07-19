@@ -86,6 +86,8 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 21px !important;
+    font-weight: bold !important;
     gap: 10px;
     flex-shrink: 0;
     border-radius: 62px;
