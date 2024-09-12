@@ -49,6 +49,8 @@
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+     
+
 </head>
 
 <body>
@@ -724,14 +726,13 @@
 
         <div class="mt-5 d-none d-md-block">
           <a href="blog.php" style="text-decoration: none;">
-            <p class="view_more_btn mb-5 d-flex flex-row justify-content-start">View More<i
-                class="fa-solid fa-arrow-right mt-1"></i></p>
+            <p class="view_more_btn mb-5 d-flex flex-row justify-content-start" >View More &nbsp; <svg class="svg_icon_arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"> <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></p>
           </a>
         </div>
 
         <div class="d-flex flex-row justify-content-center mt-4">
           <a href="blog.php" style="text-decoration: none;">
-            <p class="view_more_btn d-md-none">View More<i class="fa-solid fa-arrow-right"></i></p>
+            <p class="view_more_btn d-md-none"  >View More <svg class="svg_icon_arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"> <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg></p>
           </a>
         </div>
 

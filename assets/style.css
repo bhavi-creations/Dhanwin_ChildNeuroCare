@@ -508,6 +508,12 @@ hr {
     height: 53px;
     flex-shrink: 0;
 }
+
+.svg_icon_arrow{
+    width: 20px;
+    fill: #0d6efd !important;
+     
+}
 .cardsec {
     border-radius: 10px;
     background: var(--Secondary-color, #FFF);
