@@ -166,7 +166,7 @@ $result = $conn->query($sql);
         </div>
     </section>
 
-    <div class="section1 mt-5">
+    <div class="section1 mt-5 mb-3">
         <div class="container">
             <div class="row">
                 <div class="col-12">
