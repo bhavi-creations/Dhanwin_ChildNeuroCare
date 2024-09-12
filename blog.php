@@ -1,3 +1,13 @@
+<?php
+include './db.connection/db_connection.php';
+// Fetch blog data
+$sql = "SELECT * FROM blog";
+$result = $conn->query($sql);
+?>
+<!DOCTYPE html>
+<html lang="en">
+
+
 <!doctype html>
 <html lang="en">
 

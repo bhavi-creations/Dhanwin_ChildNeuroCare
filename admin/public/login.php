@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title> Srinivasa</title>
+    <title> DHANWIN</title>
     <link href="img\Oncology logo.png" rel="icon">
 
     <!-- Custom fonts for this template-->
