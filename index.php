@@ -65,7 +65,7 @@
       <div class="nav_bar">
         <nav class="navbar navbar-expand-lg d-none d-lg-block">
           <div class="container-fluid">
-            <a href="index.html">
+            <a href="index.php">
               <img
                 src="assets/images/Dhanwin Child Neuro Care Images/nav_logo.png"
                 alt="nav_logo"
@@ -95,7 +95,7 @@
                   style="color: white; font-weight: bold"
                   class="nav-link nav_link active"
                   aria-current="page"
-                  href="index.html"
+                  href="index.php"
                   >Home</a
                 >
                 <a
@@ -137,7 +137,7 @@
                 <a
                   style="color: white; font-weight: bold"
                   class="nav-link nav_link"
-                  href="blog.html"
+                  href="blog.php"
                   >Blog</a
                 >
                 <a
@@ -173,7 +173,7 @@
         <!-- Mobile nav bar -->
         <nav class="navbar navbar-expand-lg d-block d-lg-none">
           <div class="container-fluid">
-            <a href="index.html"
+            <a href="index.php"
               ><img
                 src="assets/images/Dhanwin Child Neuro Care Images/nav_logo.png"
                 alt="nav_logo"
@@ -197,7 +197,7 @@
                   style="color: white; font-weight: bold"
                   class="nav-link nav_link active"
                   aria-current="page"
-                  href="index.html"
+                  href="index.php"
                   >Home</a
                 >
                 <a
@@ -243,7 +243,7 @@
                 <a
                   style="color: white; font-weight: bold"
                   class="nav-link nav_link"
-                  href="blog.html"
+                  href="blog.php"
                   >Blog</a
                 >
                 <a
@@ -1037,7 +1037,7 @@ General Pediatric Conditions                </p>
                   style="color: white; font-weight: bold"
                   class="nav-link nav_link_footer active"
                   aria-current="page"
-                  href="index.html"
+                  href="index.php"
                   >Home</a
                 >
                 <a
@@ -1079,7 +1079,7 @@ General Pediatric Conditions                </p>
                 <a
                   style="color: white; font-weight: bold"
                   class="nav-link nav_link_footer"
-                  href="blog.html"
+                  href="blog.php"
                   >Blog</a
                 >
                 <a
