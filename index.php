@@ -674,11 +674,11 @@
   </div>
 
   <!-- Ending  Doctors -->
-  <section>
-    <div class="container">
+  <section   >
+    <div class="container ">
       <div class="section-title text-center">
-        <p class="our_blogs my-2">Our Blogs</p>
-        <h2 class="apporach">Blogs & articles </h2>
+        <h1 class="  meetourdoctors mt-5">Our Blogs</h1>
+        <!-- <h2 class="apporach">Blogs & articles </h2> -->
 
 
 
